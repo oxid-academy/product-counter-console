@@ -1,0 +1,6 @@
+services:
+    OxidAcademy\ProductCounterConsole\CountCommand:
+        class: OxidAcademy\ProductCounterConsole\CountCommand
+        autowire: true
+        tags:
+        - { name: 'console.command', command: 'oxac:product-counter:count' }

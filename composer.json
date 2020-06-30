@@ -1,0 +1,23 @@
+
+{
+    "name": "oxid-academy/product-counter-console",
+    "description": "Add an OXID Console command to output the number of available products in the shop.",
+    "type": "oxideshop-component",
+    "homepage": "https://oxid-esales.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "OXID Academy",
+            "email": "academy@oxid-esales.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "oxid-academy/product-counter-service": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "OxidAcademy\\ProductCounterConsole\\": "src/"
+        }
+    }
+}
