@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class CountCommand extends Command
 {
-    const MESSAGE = 'There are %s active products in the eShop.';
+    const MESSAGE = 'There are %s available products in the shop.';
     private Counter $counterService;
 
     public function __construct(Counter $counterService)
@@ -22,8 +22,8 @@ class CountCommand extends Command
     protected function configure()
     {
         $this->setName('oxac:product-counter:count')
-             ->setDescription('Counts all active products in the eShop.')
-             ->setHelp('This command counts all active products in the eShop and simply outputs it in the console.');
+             ->setDescription('Counts all available products in the shop.')
+             ->setHelp('This command counts all available products in the shop and simply outputs it on the command line.');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
