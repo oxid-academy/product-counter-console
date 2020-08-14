@@ -1,8 +1,10 @@
-# OXID Academy Product Counter Console
-
-## A OXID Academy Training Component
-This OXID eShop Component is part of the OXID Academy Development Basic Training.
+# OXID Academy Product Counter Service
+**This Package is part of the OXID Academy Development Basic Training.**
 
 ## Installation
+```
+composer require oxid-academy/product-counter-service
+```
 
-## Configuration
+## Description
+This OXID eShop Component counts all available products in the currently active shop.
