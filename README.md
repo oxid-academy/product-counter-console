@@ -1,9 +1,9 @@
-# OXID Academy Product Counter Service
+# OXID Academy Product Counter Console
 **This Package is part of the OXID Academy Development Basic Training.**
 
 ## Installation
 ```
-composer require oxid-academy/product-counter-service
+composer require oxid-academy/product-counter-console
 ```
 
 ## Description
