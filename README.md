@@ -7,4 +7,4 @@ composer require oxid-academy/product-counter-console
 ```
 
 ## Description
-This OXID eShop Component counts all available products in the currently active shop.
+This OXID eShop Component adds a command to the OXID Console, which counts all available products in the shop.
