@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2022-02-14
+### Added
+- `CountCommand` Added strict type mode.
+
 ## [1.0.0] - 2020-08-14
 ### Added
 - `CountCommand` adds the command to the OXID Console using the product-counter-service.

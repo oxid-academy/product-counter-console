@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace OxidAcademy\ProductCounterConsole;
 
 use OxidAcademy\ProductCounterService\Counter;
@@ -21,9 +23,10 @@ class CountCommand extends Command
 
     protected function configure()
     {
-        $this->setName('oxac:product-counter:count')
-             ->setDescription('Counts all available products in the shop.')
-             ->setHelp('This command counts all available products in the shop and simply outputs it on the command line.');
+        $this
+            ->setName('oxac:product-counter:count')
+            ->setDescription('Counts all available products in the shop.')
+            ->setHelp('This command counts all available products in the shop and simply outputs it on the command line.');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
