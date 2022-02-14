@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - `composer.json` increased the required PHP version to 8.0.
 - `CountCommand` added strict type mode.
+- `README.md` added additional hint to installation.
 
 ## [1.0.0] - 2020-08-14
 ### Added
