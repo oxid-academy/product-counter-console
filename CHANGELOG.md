@@ -6,12 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2022-09-29
+### Changed
+- Removed class parameter from `services.yaml` since it is not needed.
+- Removed command name from `services.yaml` since it is no longer necessary in OXID eShop 6.5.
+- Enhanced the `README.md`.
+
+### Fixed
+- `CountCommand::execute()` now returns 0 to remove errors in OXID eShop 6.5.
+
 ## [1.0.1] - 2022-02-14
 ### Changed
-- `composer.json` increased the required PHP version to 8.0.
-- `CountCommand` added strict type mode.
-- `README.md` added additional hint to installation.
+- Increased required PHP version to 8.0.
+- Added strict type mode to `CountCommand`.
+- Added additional hints for installation to `README.md`.
 
 ## [1.0.0] - 2020-08-14
 ### Added
-- `CountCommand` adds the command to the OXID Console using the product-counter-service.
+- Introduced the **OXID Academy Product Counter Service** as a console command.
