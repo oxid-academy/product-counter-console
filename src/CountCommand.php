@@ -32,5 +32,7 @@ class CountCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $output->writeln(sprintf($this::MESSAGE, $this->counterService->count()));
+
+        return 0;
     }
 }
